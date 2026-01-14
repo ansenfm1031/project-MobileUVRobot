@@ -5,7 +5,7 @@
 > 코로나(COVID-19)의 영향으로 **방역**에 대한 관심과 필요성이 증가  
 > **옴니휠과 6축 로봇팔**을 활용해 자유롭게 움직이며 **UV 살균**을 하는 프로젝트 
 
-<img width="360" src="https://github.com/user-attachments/assets/869c6065-10e3-46e8-a2cb-177dcf1627c7" /><br>
+<img width="360" src="docs/images/overview_001.png" /><br>
 
 ## 프로젝트 일정
 
@@ -23,15 +23,15 @@
 - Products Used : Tinkerkit Braccio Robot (T050000), Arduino Mega 2560, UV-a 405nm LED(5V), NEX-14049 100mm Omni Wheel, JGA25-370 DC Gear Motor, L298N Motor Driver, HC-SR04, HC-06
 - Programming Tool : SolidWorks, Ultimaker Cura, Arduino IDE, Processing, App Inventor
 
-<img width="540" src="https://github.com/user-attachments/assets/af220c92-ae80-4546-8dd0-7e0c8a12d276" /><br>
+<img width="540" src="docs/images/architecture_001.png" /><br>
 
 ## 핵심 기술
 
 ### SolidWorks와 Ultimaker Cura를 이용해 차체 설계 및 출력
 
 <p align="left">
-  <img width="180" src="https://github.com/user-attachments/assets/cfc80bf4-fc95-486c-b357-06d726cf176f" />
-  <img width="540" src="https://github.com/user-attachments/assets/a37b5592-0b92-446f-8479-4d9a85bf7b76" />
+  <img width="180" src="docs/images/coretech_001.png" />
+  <img width="540" src="docs/images/coretech_002.png" />
 </p>
 
 ### 좌표를 이용한 로봇팔 제어
@@ -39,8 +39,8 @@
 - 원하는 좌표로 로봇팔을 움직이기 위해 각 축의 각도 계산
 
 <p align="left">
-  <img width="400" src="https://github.com/user-attachments/assets/6e6eb643-edd5-4c3e-9637-5d01ebc64f48" />
-  <img width="320" src="https://github.com/user-attachments/assets/d5d3d156-d192-446a-8be0-7a095f37960d" />
+  <img width="400" src="docs/images/coretech_003.png" />
+  <img width="320" src="docs/images/coretech_004.png" />
 </p>
 
 ### 프로세싱을 이용해 시리얼 통신으로 로봇팔 제어
@@ -48,16 +48,16 @@
 - 왼쪽의 시작 화면에서 "X = 0, Y = 300, Z = 100, Angle = 0"을 입력하면 각 축의 각도가 계산되고 시리얼 통신으로 제어
 
 <p align="left">
-  <img width="240" src="https://github.com/user-attachments/assets/2e874644-e560-4a08-bae6-2fc9583e0273" />
-  <img width="240" src="https://github.com/user-attachments/assets/1b442242-5d6c-4227-9cad-5e285f967ed5" />
-  <img width="240" src="https://github.com/user-attachments/assets/a60e94e3-cb71-4966-8217-53ec99d321ce" />
+  <img width="240" src="docs/images/coretech_005.png" />
+  <img width="240" src="docs/images/coretech_006.png" />
+  <img width="240" src="docs/images/coretech_007.png" />
 </p>
 
 ### App Inventor를 이용해 블루투스로 이동 및 로봇팔 제어
 
 <p align="left">
-  <img width="240" src="https://github.com/user-attachments/assets/086aebe9-54c7-4d70-a3f1-498ab5a162b5" />
-  <img width="480" src="https://github.com/user-attachments/assets/07818148-fd0e-4dcd-83f1-e825edc44fb1" />
+  <img width="240" src="docs/images/coretech_008.png" />
+  <img width="480" src="docs/images/coretech_009.png" />
 </p>
 
 ## 프로젝트 보완점과 추후 발전 가능성
